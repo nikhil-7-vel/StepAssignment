@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FlashSale {
+public class Ecommerce2 {
 
     static HashMap<String,Integer> stock = new HashMap<>();
     static Queue<Integer> waitingList = new LinkedList<>();
@@ -29,3 +29,5 @@ public class FlashSale {
 
         purchaseItem("IPHONE15_256GB",12345);
         purchaseItem("IPHONE15_256GB",67890);
+    }
+}
